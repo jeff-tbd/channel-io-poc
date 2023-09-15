@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jeff-tbd/channel-io-poc/issues"
   },
-  "homepage": "https://github.com/jeff-tbd/channel-io-poc#readme"
+  "homepage": "https://github.com/jeff-tbd/channel-io-poc#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
