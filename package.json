@@ -1,9 +1,11 @@
 {
-  "name": "channel-io-poc",
+  "name": "@jeff-tbd/channel-io-poc",
   "version": "1.0.0",
-  "description": "npm package for channel sdk",
-  "main": "index.js",
+  "description": "npm package test for channel web sdk loader poc",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepublishOnly": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
